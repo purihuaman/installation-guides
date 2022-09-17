@@ -150,7 +150,7 @@ Scripts section add the following code
 
 ```
 "scripts": {
-  "dev": "vite", // Agregar "--port 3000" para cambiar el puerto
+  "dev": "vite", // Add "--port 3000" to change the port
   "build": "vite build --mode production",
   "preview": "vite preview",
   "format": "prettier --write",
