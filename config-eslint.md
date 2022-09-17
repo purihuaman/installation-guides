@@ -84,6 +84,10 @@ Agregar en el apartado de "extends" y agregar siguiente el código
 
 ```
 extends: ['eslint:recommended', 'standard', 'eslint-config-prettier'],
+
+or
+
+extends: [ 'plugin:react/recommended', 'plugin:react/jsx-runtime', 'standard', 'eslint-config-prettier', ],
 ```
 
 #### 13. Paso

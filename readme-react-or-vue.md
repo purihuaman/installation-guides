@@ -1,14 +1,15 @@
-# Installation-guides
+# Installation Guides
 
 This is an installation guide for different JavaScript technologies.
 
-- Vanilla
+- React js
+- Vue js
 
-## Installing a vanilla JavaScript project with vite
+### Install a React project with Vite
 
 ### _ First form _
 
-## Create a project with npm or pnpm
+## Create a project with npm | pnpm
 
 #### 1. First step
 
@@ -34,10 +35,11 @@ pnpm create vite
 
 #### 3. Third step
 
-### Select JavaScript technology (Vanilla)
+### Select JavaScript technology (React.js or Vue.js)
 
 ```
-> Vanilla
+> React
+> Vue
 ```
 
 #### 4. Fourth step
@@ -89,19 +91,20 @@ or
 pnpm run dev
 ```
 
+---
+
 ### _ Second form _
 
-## Create a project with project name using a Vanilla.js template
+## Create a project with project name using a React.js or Vue.js template
 
 #### 1. First step
 
 ```
-npm create vite@latest my-app -- --template vanilla
+npm create vite@latest my-app -- --template React|Vue
 
 or
 
-pnpm create vite my-app -- --template vanilla
-
+pnpm create vite@latest my-app -- --template React|Vue
 ```
 
 #### 2. Second step
@@ -125,16 +128,16 @@ npm install
 
 or
 
-pnpm install
+pnpm i
 
 or
 
-pnpm i
+pnpm install
 ```
 
 #### 4. Fourth step
 
-### Start or run the project
+### Start the project
 
 ```
 npm run dev
