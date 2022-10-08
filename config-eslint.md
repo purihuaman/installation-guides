@@ -95,7 +95,7 @@ extends: [ 'plugin:react/recommended', 'plugin:react/jsx-runtime', 'standard', '
 
 #### 13. Thirteenth step
 
-Create a ".prettierrc" file and add following code
+In the generated file of ".eslintrc.js" add the following code
 
 ```
 rules: {
@@ -110,7 +110,7 @@ rules: {
 
 #### 14. Fourteenth step
 
-Create a ".prettierrc" file and add following code
+Create a ".eslintrc.js" file and add following code
 
 ```
 dist
